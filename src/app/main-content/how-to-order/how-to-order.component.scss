@@ -1,0 +1,13 @@
+.hto-container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-container {
+  display: flex;
+  > img {
+    height: 50px;
+  }
+}
