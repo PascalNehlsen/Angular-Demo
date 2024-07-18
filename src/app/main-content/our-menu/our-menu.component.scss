@@ -1,0 +1,38 @@
+.menu-container {
+  display: flex;
+  background-image: url(./../../../assets/img/3_section_our_menu/section_our_menu_bg.jpg);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+
+  div {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-size: 32px;
+    > img {
+      height: 200px;
+    }
+  }
+
+  div:nth-child(3) {
+    flex-direction: row-reverse;
+  }
+}
+
+table {
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .header {
+    text-align: center;
+    font-weight: bold;
+  }
+}
