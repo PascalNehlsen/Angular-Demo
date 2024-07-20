@@ -1,12 +1,16 @@
 @import "./../../../../styles.scss";
 
+@mixin dFlex() {
+  display: flex;
+  justify-content: space-between;
+  align-items: $c;
+}
+
 nav {
   width: 100%;
   padding: 32px;
-  display: flex;
-  justify-content: space-between;
+  @include dFlex();
   position: absolute;
-  align-items: $c;
   top: 0;
   font-size: 24px;
   > img {
